@@ -1,0 +1,30 @@
+{
+  "name": "weekly",
+  "version": "0.0.1",
+  "description": "this is zxa's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kobe990/weekly.git"
+  },
+  "keywords": [
+    "zxa",
+    "kobe990",
+    "website"
+  ],
+  "author": "zxa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kobe990/weekly/issues"
+  },
+  "homepage": "https://github.com/kobe990/weekly#readme",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "dependencies": {
+    "koa": "~1.1.2"
+  }
+}
