@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Expires" CONTENT="-1">
+  <meta http-equiv="Cache-Control" CONTENT="no-store">
+  <meta http-equiv="Pragma" CONTENT="no-cache">
+  <title></title>
+</head>
+<body>
+<form>
+  <input id="text" type="text">
+</form>
+<button id="click">click</button>
+<script src="https://t.alipayobjects.com/images/rmsweb/T1.KXhXadkXXXXXXXX.js"></script>
+<script>
+//  window.onpageshow = function(e) {
+//    alert(e.persisted)
+//  }
+//$(window).bind("pageshow", function(event) {
+//  if (event.originalEvent.persisted) {
+//    window.location.reload()
+//  }
+//});
+
+  // document.getElementById('text').value = 'test'
+
+
+
+  document.getElementById('click').onclick = function () {
+    location.href = '/detail'
+  }
+</script>
+<script>
+  if (isSafari()) {
+    $(window).bind("pageshow", function (event) {
+      if (event.originalEvent.persisted && $('body').hasClass("no-cache")) {
+        document.body.style.display = "none";
+        window.location.reload();
+      }
+    });
+  }
+  function isSafari() {
+    if (navigator.userAgent.indexOf("Safari") > -1) {
+      return true;
+    }
+    return false;
+  }
+
+</script>
+</body>
+</html>

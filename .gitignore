@@ -2,9 +2,8 @@ node_modules/
 *.log
 .DS_Store
 ._*
-sea-modules/
-spm_modules/
-dist/
-_dist/
+static/spm_modules/
+static/dist/
+static/_dist/
 .build/
 .idea

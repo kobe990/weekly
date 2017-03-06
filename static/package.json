@@ -1,0 +1,46 @@
+{
+  "name": "weekly",
+  "version": "0.0.1",
+  "description": "this zxa's website static assets",
+  "keywords": [],
+  "homepage": "",
+  "author": "kobe990 <125108977@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "react": "0.14.3",
+      "react-dom": "0.14.3",
+      "jquery": "1.11.1"
+    },
+    "devDependencies": {
+    },
+    "output": [
+      "src/js/index.js",
+      "src/js/test.js",
+      "src/less/index.less",
+      "images/*.PNG"
+    ],
+    "build": {
+      "babel": true,
+      "jsx": true,
+      "loader": {
+        ".jsx": "babel"
+      }
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}

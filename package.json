@@ -25,6 +25,8 @@
     "registry": "http://registry.npm.alibaba-inc.com"
   },
   "dependencies": {
-    "koa": "~1.1.2"
+    "koa": "~1.1.2",
+    "nunjucks": "~2.2.0",
+    "koa-router": "~5.3.0"
   }
 }
